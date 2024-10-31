@@ -1,0 +1,46 @@
+.productimage {
+  width: 674px;
+  height: 674px;
+}
+
+.rightbtn {
+  border: 1px solid black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.rightbtn:hover {
+  background-color: white;
+}
+
+.rightbtn:active {
+  background-color: white;
+}
+
+.righticon {
+  color: black;
+}
+
+.leftbtn {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.leftbtn:hover {
+  background-color: white;
+}
+
+.leftbtn:active {
+  background-color: white;
+}
+
+.lefticon {
+  color: black;
+}
+
+@media (max-width: 390px) {
+  .productimage {
+    width: 350px;
+    height: 350px;
+  }
+}
